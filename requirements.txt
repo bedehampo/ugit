@@ -1,0 +1,12 @@
+# Core dependencies for building git from scratch
+# Most functionality uses Python standard library
+
+# CLI framework (optional - argparse is in stdlib, but click is nicer)
+click>=8.0.0
+
+# Testing framework
+pytest>=7.0.0
+
+# Development tools (optional)
+black>=23.0.0
+flake8>=6.0.0
